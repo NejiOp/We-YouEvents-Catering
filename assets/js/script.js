@@ -149,22 +149,33 @@ window.addEventListener("load", autoSlide);
  */
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.getElementById("contact-form");
-
+ 
   form.addEventListener("submit", function (event) {
-    event.preventDefault();
-
-    const name = document.getElementById("name");
-    const phone = document.getElementById("phone");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
-
-    if (name.value.trim() === "" || phone.value.trim() === "" || email.value.trim() === "" || message.value.trim() === "") {
-      alert("Please fill in all required fields.");
-    } else {
-      form.submit();
-    }
+     event.preventDefault();
+ 
+     const name = document.getElementById("name");
+     const phone = document.getElementById("phone");
+     const email = document.getElementById("email");
+     const message = document.getElementById("message");
+ 
+     if (name.value.trim() === "") {
+       alert("Please enter your name.");
+     } else if (phone.value.trim() === "" || isNaN(phone.value)) {
+       alert("Please enter a valid phone number.");
+     } else if (email.value.trim() === "" || !isValidEmail(email.value)) {
+       alert("Please enter a valid email address.");
+     } else if (message.value.trim() === "") {
+       alert("Please enter a message.");
+     } else {
+       form.submit();
+     }
   });
-});
+ });
+ 
+ function isValidEmail(email) {
+  const re = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return re.test(email);
+ }
 
 
 
