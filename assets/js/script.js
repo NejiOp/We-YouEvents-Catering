@@ -145,6 +145,31 @@ window.addEventListener("load", autoSlide);
 
 
 /**
+ *  Contact Us
+ */
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contact-form");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name");
+    const phone = document.getElementById("phone");
+    const email = document.getElementById("email");
+    const message = document.getElementById("message");
+
+    if (name.value.trim() === "" || phone.value.trim() === "" || email.value.trim() === "" || message.value.trim() === "") {
+      alert("Please fill in all required fields.");
+    } else {
+      form.submit();
+    }
+  });
+});
+
+
+
+
+/**
  * PARALLAX EFFECT
  */
 
