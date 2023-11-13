@@ -262,15 +262,6 @@ header
    @media screen and (min-width: 426px) and (max-width: 770px) {
     /* ... (styles for smaller screens) ... */
 
-     /**
-header
-*/
-
-.header{
-padding-top: 5px;
-}
-
-
   /**
 hero
 */
