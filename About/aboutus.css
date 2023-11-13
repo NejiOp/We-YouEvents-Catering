@@ -1876,4 +1876,76 @@ services
 }
 
 
+  @media (max-width: 768px ){
+
+
+
+    /**
+  header
+  */
+
+
+
+
+    /**
+  hero
+  */
+
+.hero .hero-title
+{
+  margin-top: 7vh;
+  height: 0vh;
+  font-size: 4rem !important;
+}
+
+
+.hero .hero-text
+{
+  padding-top: 8vh;
+  text-align: center;
+  font-size: 15px ;
+}
+
+
+
+/**
+services
+*/
+.services h1{
+  font-size: 3rem !important;
+  width: 100%;
+  height: 0vh;
+}
+
+.services p{
+   font-size: 12px !important ;
+}
+
+.services .slogan h1{
+ 
+   font-size: 2rem !important;
+}
+
+.services .container .vision h1{
+   padding-top: 5vh !important;
+}
+
+
+.services .container .mission h1{
+   padding-top: 0vh !important;
+}
+
+
+.services .vision{
+  height: 100vh;
+}
+
+.services .mission{
+    height: 100vh;
+  
+}
+
+
+}
+
 }
