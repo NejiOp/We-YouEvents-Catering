@@ -1795,3 +1795,85 @@ services
 
 
 }
+
+
+
+
+
+@media (max-width: 430px ){
+
+
+
+    /**
+  header
+  */
+
+.header{
+  padding-top: 5px;
+}
+
+
+    /**
+  hero
+  */
+
+.hero .hero-title
+{
+  margin-top: 0vh;
+  height: 0vh;
+  font-size: 3rem !important;
+}
+
+
+.hero .hero-text
+{
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 11px ;
+}
+
+
+
+/**
+services
+*/
+
+.services h1{
+  font-size: 3rem !important;
+  width: 100%;
+  height: 0vh;
+}
+
+.services p{
+   font-size: 12px !important ;
+}
+
+.services .slogan h1{
+ 
+   font-size: 1.5rem !important;
+}
+.services .container {
+   display: block !important;
+}
+
+.services .container .vision h1{
+   padding-top: 10vh !important;
+}
+
+
+.services .container .mission h1{
+   padding-top: 10vh !important;
+}
+
+
+.services .vision{
+  height: 80vh;
+}
+
+.services .mission{
+   margin-left: 0%;
+  
+}
+
+
+}
