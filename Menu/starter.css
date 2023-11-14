@@ -1811,3 +1811,38 @@ section nav .icon i:hover{
 
   
   }
+
+
+
+
+
+
+
+
+
+
+ @media (max-width: 320px) {
+       /**
+footer
+*/
+
+.footer-brand{
+    text-align: center;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+
+.footer-brand #body-4{
+    font-size: 10px;
+}
+
+.footer-brand #body-3{
+    font-size: 14px;
+}
+
+
+.footer-brand #body-2{
+    font-size: 14px;
+}
+ }
