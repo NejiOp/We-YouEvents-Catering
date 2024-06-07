@@ -44,7 +44,7 @@
 services
 */
 
-  .services h1 {
+  .services h2 {
     font-size: 2.5rem !important;
     width: 100%;
     height: 0vh;
@@ -55,24 +55,42 @@ services
     gap: 2px !important;
   }
 
-  .services .slogan h1 {
+  .services .slogan h2 {
     font-size: 1.5rem !important;
   }
   .services .container {
     display: block !important;
   }
 
-  .services .container .vision h1 {
+  .services .container .vision h2 {
     padding-top: 10vh !important;
   }
 
-  .services .container .mission h1 {
+  .services .container .mission h2 {
     padding-top: 10vh !important;
   }
 
   .services .mission {
     margin-left: 0%;
   }
+
+  /**
+  iso
+  */
+
+  .iso h2 {
+    font-size: 20px;
+  }
+
+  .iso-img {
+    padding-left: 10%;
+}
+
+.iso-img img {
+  height: 50vh;
+  width: 100%;
+}
+
 
   /**
 footer
@@ -144,7 +162,7 @@ header
     services
     */
 
-  .services h1 {
+  .services h2 {
     font-size: 3rem !important;
     width: 100%;
     height: 0vh;
@@ -154,18 +172,18 @@ header
     font-size: 12px !important ;
   }
 
-  .services .slogan h1 {
+  .services .slogan h2 {
     font-size: 1.5rem !important;
   }
   .services .container {
     display: block !important;
   }
 
-  .services .container .vision h1 {
+  .services .container .vision h2 {
     padding-top: 10vh !important;
   }
 
-  .services .container .mission h1 {
+  .services .container .mission h2 {
     padding-top: 10vh !important;
   }
 
@@ -175,6 +193,38 @@ header
 
   .services .mission {
     margin-left: 0%;
+  }
+
+  /**
+  iso
+  */
+  .iso h2 {
+    font-size: 20px;
+  }
+
+  .iso-img {
+    padding-left: 10%;
+  }
+
+  .iso-img img {
+    height: 50vh;
+    width: 100%;
+}
+
+   /**
+  footer
+  */
+
+  .footer-brand #body-4 {
+    font-size: 15px;
+  }
+
+  .footer-brand #body-2 {
+    font-size: 15px;
+  }
+
+  .footer-brand #body-3 {
+    font-size: 15px;
   }
 }
 
@@ -221,7 +271,7 @@ header
     services
     */
 
-  .services h1 {
+  .services h2 {
     font-size: 3rem !important;
     width: 100%;
     height: 0vh;
@@ -231,18 +281,18 @@ header
     font-size: 12px !important ;
   }
 
-  .services .slogan h1 {
+  .services .slogan h2 {
     font-size: 1.5rem !important;
   }
   .services .container {
     display: block !important;
   }
 
-  .services .container .vision h1 {
+  .services .container .vision h2 {
     padding-top: 10vh !important;
   }
 
-  .services .container .mission h1 {
+  .services .container .mission h2 {
     padding-top: 10vh !important;
   }
 
@@ -253,6 +303,23 @@ header
   .services .mission {
     margin-left: 0%;
   }
+  /**
+  iso
+  */
+
+  .iso h2 {
+    font-size: 20px;
+  }
+
+  .iso-img {
+    padding-left: 10%;
+}
+
+
+  .iso-img img {
+    height: 50vh;
+    width: 100%;
+}
 }
 
 /**
@@ -289,7 +356,7 @@ hero
   /**
 services
 */
-  .services h1 {
+  .services h2 {
     font-size: 3rem !important;
     width: 100%;
     height: 0vh;
@@ -299,15 +366,15 @@ services
     font-size: 12px !important ;
   }
 
-  .services .slogan h1 {
+  .services .slogan h2 {
     font-size: 2rem !important;
   }
 
-  .services .container .vision h1 {
+  .services .container .vision h2 {
     padding-top: 5vh !important;
   }
 
-  .services .container .mission h1 {
+  .services .container .mission h2 {
     padding-top: 0vh !important;
   }
 
@@ -318,6 +385,20 @@ services
   .services .mission {
     height: 100vh;
   }
+
+  /**
+  iso
+  */
+
+  .iso h2 {
+    font-size: 30px;
+}
+
+.iso img {
+  height: 100%;
+}
+
+
 }
 
 /**
@@ -355,7 +436,7 @@ hero
   /**
 services
 */
-  .services h1 {
+  .services h2 {
     font-size: 4rem !important;
     width: 100%;
     height: 0vh;
@@ -365,11 +446,11 @@ services
     font-size: 18px !important ;
   }
 
-  .services .slogan h1 {
+  .services .slogan h2 {
     font-size: 2.8rem !important;
   }
 
-  .services .container .vision h1 {
+  .services .container .vision h2 {
     font-size: 5rem !important;
     padding-top: 0vh !important;
   }
@@ -378,7 +459,7 @@ services
     font-size: 18px !important;
   }
 
-  .services .container .mission h1 {
+  .services .container .mission h2 {
     font-size: 5rem !important;
     padding-top: 0vh !important;
   }
@@ -394,6 +475,14 @@ services
   .services .mission {
     height: 100vh;
   }
+
+  /**
+  iso
+  */
+
+  .iso img {
+    height: 100%;
+}
 }
 
 
