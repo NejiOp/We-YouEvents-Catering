@@ -930,7 +930,7 @@ body.nav-active {
   padding: 70px 0;
 }
 
-.menu h1 {
+.menu h2 {
   font-size: 55px;
   display: flex;
   align-items: center;
@@ -939,13 +939,13 @@ body.nav-active {
   font-family: sans-serif;
 }
 
-.menu h1 span {
+.menu h2 span {
   color: #64d3f8;
   margin-left: 15px;
   font-family: url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 }
 
-.menu h1 span::after {
+.menu h2 span::after {
   content: "";
   width: 100%;
   height: 2px;
@@ -1045,6 +1045,7 @@ body.nav-active {
 .menu .menu_box .menu_card .menu_info h3 {
   text-align: center;
   margin-top: 10px;
+  color: var(--gold-crayola);
 }
 
 .menu .menu_box .menu_card .menu_info .menu_icon {
@@ -1067,14 +1068,13 @@ body.nav-active {
 
 /*-----------------------------------*\
     #HERO
-  \*-----------------------------------*/
+\*-----------------------------------*/
 
 .hero {
-  margin-top: 22vh;
-  background-size: cover;
+  margin-top: 16vh !important;
+  background-size: 100% 50vh !important;
   position: relative;
   padding-block: 10px;
-
   min-height: 50vh;
   height: 50vh;
   overflow: hidden;
@@ -1083,7 +1083,7 @@ body.nav-active {
 
 .hero h1 {
   color: var(--gold-crayola);
-  margin-top: 20vh;
+  margin-top: 18vh;
   font-size: 6rem;
   font-family: "Lora", serif;
 }
@@ -1108,6 +1108,11 @@ body.nav-active {
   font-size: 7rem;
 }
 
+.desserts .cuisiens{
+  text-align: center;
+  color: var(--gold-crayola)
+}
+
 /*Gallary*/
 
 .gallary {
@@ -1115,20 +1120,20 @@ body.nav-active {
   padding: 70px 0;
 }
 
-.gallary h1 {
+.gallary h2 {
   font-size: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.gallary h1 span {
+.gallary h2 span {
   margin-left: 15px;
   color: #fac031;
   font-family: mv boli;
 }
 
-.gallary h1 span::after {
+.gallary h2 span::after {
   content: "";
   width: 100%;
   height: 2px;
@@ -1216,7 +1221,7 @@ body.nav-active {
   transform: translateY(0);
 }
 
-.desserts h1 {
+.desserts h2 {
   color: #fff;
 }
 
@@ -1426,6 +1431,13 @@ body.nav-active {
   opacity: 1;
   visibility: visible;
 }
+
+
+.update{
+  color: var(--quick-silver);
+  margin-left: 120%;
+}
+
 
 /*-----------------------------------*\
     #MEDIA QUERIES
@@ -1909,7 +1921,7 @@ body.nav-active {
 
   .hero {
     margin-top: 17vh;
-    background-size: 100% 30vh;
+    background-size: 100% 50vh;
     min-height: 35vh;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -1939,10 +1951,10 @@ menu
 */
 
   .menu {
-    padding-top: 0px;
+    padding-top: 10px;
   }
 
-  .menu h1 {
+  .menu h2 {
     font-size: 30px;
   }
 
@@ -1989,6 +2001,14 @@ footer
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+  
   .header #logo {
     height: 15vh;
     width: 100%;
@@ -2009,7 +2029,7 @@ hero
   }
 
   .hero .hero-title {
-    margin-top: 8vh;
+    margin-top: 10vh;
     font-size: 2.2rem;
   }
 
@@ -2020,7 +2040,7 @@ menu
     padding-top: 0;
   }
 
-  .menu h1 {
+  .menu h2 {
     font-size: 30px;
   }
   .menu .menu_box .menu_card {
@@ -2065,6 +2085,14 @@ header
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   /*
   hero
   */
@@ -2080,7 +2108,7 @@ header
   }
 
   .hero .hero-title {
-    margin-top: 5vh;
+    margin-top: 12vh;
     font-size: 2.5rem;
   }
 
@@ -2091,7 +2119,7 @@ header
     padding-top: 0;
   }
 
-  .menu h1 {
+  .menu h2 {
     font-size: 30px;
   }
   .menu .menu_box .menu_card {
@@ -2120,6 +2148,13 @@ header
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
   /*
 hero
 */

@@ -1245,6 +1245,12 @@ textarea.input-field {
   visibility: visible;
 }
 
+
+.update{
+  color: var(--quick-silver);
+  margin-left: 120%;
+}
+
 /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -1769,6 +1775,14 @@ header
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   /**
 service
 */
@@ -1809,6 +1823,14 @@ header
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   /**
 hero
 */
@@ -1841,6 +1863,15 @@ service
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
+  
   /**
     hero
     */

@@ -1427,6 +1427,11 @@ body.nav-active {
   visibility: visible;
 }
 
+.update{
+  color: var(--quick-silver);
+  margin-left: 120%;
+}
+
 /*-----------------------------------*\
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -1978,6 +1983,14 @@ footer
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   .header #logo {
     height: 15vh;
     width: 100%;
@@ -2047,6 +2060,14 @@ footer
     display: none;
   }
 
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   /**
     hero
     */
@@ -2087,6 +2108,14 @@ footer
     */
 
   .header .dropdown-content #hover-underline {
+    display: none;
+  }
+
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
     display: none;
   }
 
