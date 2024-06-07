@@ -979,7 +979,7 @@ font-family: "Lora", serif;
   margin-block-end: 25px;
 }
 .form-right .body-3 {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 
 .form-left,
@@ -1012,8 +1012,34 @@ textarea.input-field {
   background-repeat: repeat;
   background-position: top left;
 }
+/*
+disclaimer
+*/
+.disclaimers{
+  width: 100%;
+  margin-top: 25svh;
+}
 
+.iso-img{
+display: flex;
+flex-wrap: wrap;
 
+            gap: 40px;
+            width: 100%;
+            padding-left: 22%;
+            padding-right: 10%;
+            padding-bottom: 20vh;
+}
+
+.iso-img img{
+height: 75vh;
+width: 42%;
+border: 5px solid  #fff;
+}
+
+.iso-img img:hover{
+  transform:  scale(1.1);
+}
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -1165,6 +1191,11 @@ textarea.input-field {
 .back-top-btn.active {
   opacity: 1;
   visibility: visible;
+}
+
+.update{
+  color: var(--quick-silver);
+  margin-left: 120%;
 }
 
 /*-----------------------------------*\
@@ -1854,6 +1885,15 @@ textarea.input-field {
     font-size: 20px !important;
   }
 
+  .form-right iframe{
+    width: 250px;
+    height: 200px;
+}
+
+   .form-right .body-3{
+    margin-left: 3%;
+    font-size: 15px !important;
+   }
   /**
 footer
 */
@@ -1879,7 +1919,7 @@ footer
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 380px) {
+@media screen and (min-width: 320px) and (max-width: 380px) {
   /**
   header
   */
@@ -1898,6 +1938,14 @@ footer
     height: 20vh !important;
   }
   
+  /*
+  hero
+  */
+.hero h1{
+  font-size: 2.5rem;
+}
+
+
   /**
   right form
   */
@@ -1905,6 +1953,11 @@ footer
   .form-right .body-1 {
     font-size: 20px !important;
   }
+
+  .form-right .body-3{
+    font-size: 16px;
+  }
+
 
   /**
   footer
@@ -1940,6 +1993,8 @@ footer
   .header .dropdown-content #hover-underline{
     display: none;
   }
+
+ 
   
   /**
   right form
@@ -1948,6 +2003,16 @@ footer
   .form-right #body-1 {
     margin-left: 180px;
   }
+
+  .form-right iframe{
+    width: 450px;
+    height: 250px;
+}
+
+   .form-right .body-3{
+    margin-left: 17%;
+   }
+  
 }
 
 
@@ -1966,6 +2031,13 @@ footer
     display: none;
   }
   
+   /*
+  hero
+  */
+
+  .hero h1{
+    font-size: 3.5rem;
+  }
   
   /**
   right form
@@ -1992,6 +2064,20 @@ footer
   .header .dropdown-content #hover-underline{
     display: none;
   }
+
+  /**
+  form
+  */
+
+  .form-right iframe{
+    width: 300px;
+    height: 200px;
+}
+
+   .form-right .body-3{
+    margin-left: 3%;
+    
+   }
 }
 
 @media screen and (min-width: 1030px) and (max-width: 1440px) {
