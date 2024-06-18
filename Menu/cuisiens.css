@@ -1079,8 +1079,8 @@ body.nav-active {
   background-size: cover;
   position: relative;
   padding-block: 90px;
-  min-height: 50vh;
-  height: 50vh;
+  min-height: 60vh;
+  height: 60vh;
   overflow: hidden;
   z-index: 1;
 }
