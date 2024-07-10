@@ -1936,3 +1936,37 @@ service
     display: none;
   }
 }
+
+
+
+/*-----------------------------------*\
+  #Gallery
+\*-----------------------------------*/
+
+
+.img {
+    width: 450px;
+    height: 300px;
+    margin: 20px;
+    border: 10px solid hsl(44, 87%, 65%);
+    
+  
+    transition-duration: 1s;
+}
+
+.img:hover {
+    border: 5px solid hsl(44, 87%, 65%);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+   
+}
+
+.gallery {
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
