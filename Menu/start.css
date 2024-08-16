@@ -2103,6 +2103,8 @@
     /**
       gallary
       */
+      
+
       .gallary .gallary_image_box {
         grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns for smaller screens */
         grid-gap: 15px; /* Reduce gap between cards */
@@ -2219,6 +2221,10 @@
   
 /* Responsive styles for tablets and phones */
 @media (max-width: 430px) {
+
+  .gallary {
+    padding: 0px;
+  }
   .gallary .gallary_image_box {
     grid-template-columns: 1fr 1fr; /* Adjust the number of columns for smaller screens */
     grid-gap: 15px; /* Reduce gap between cards */
