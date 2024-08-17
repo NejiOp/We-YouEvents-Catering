@@ -2302,6 +2302,14 @@ textarea.input-field {
   margin-left: 10px;
 }
 
+  
+.navbar-item:hover .dropdown-content{
+  display: none;
+}
+
+.nested-dropdown:hover .nested-dropdown-content {
+  display: none;
+}
 
   .header .dropdown-content #hover-underline{
     display: none;
@@ -2370,7 +2378,7 @@ footer
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 380px) {
+@media screen and (min-width: 321px) and (max-width: 380px) {
   /**
   header
   */
@@ -2470,6 +2478,14 @@ margin-left: -10px;
     color: silver;
     margin-left: 10px;
   }
+  
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
 
   .header .dropdown-content #hover-underline{
     display: none;
@@ -2517,6 +2533,16 @@ margin-left: -10px;
     color: silver;
     margin-left: 10px;
   }
+
+    
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
 
   .header .dropdown-content #hover-underline{
     display: none;
