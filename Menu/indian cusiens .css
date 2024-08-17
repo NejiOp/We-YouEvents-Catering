@@ -1120,20 +1120,20 @@ body.nav-active {
   padding: 70px 0;
 }
 
-.gallary h2 {
+.gallary h1 {
   font-size: 55px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.gallary h2 span {
+.gallary h1 span {
   margin-left: 15px;
   color: #fac031;
   font-family: mv boli;
 }
 
-.gallary h2 span::after {
+.gallary h1 span::after {
   content: "";
   width: 100%;
   height: 2px;
@@ -1146,8 +1146,8 @@ body.nav-active {
 .gallary .gallary_image_box {
   width: 95%;
   margin: 10px auto;
-  border-radius: 15%;
   display: grid;
+  border-radius: 15%;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
 }
@@ -1155,15 +1155,16 @@ body.nav-active {
 .gallary .gallary_image_box .gallary_image {
   display: flex;
   align-items: center;
-  border-radius: 15%;
   justify-content: center;
+  border-radius: 15%;
   background: black;
+  position: relative; /* Added to ensure text and buttons are positioned correctly */
 }
 
 .gallary .gallary_image_box .gallary_image img {
   width: 100%;
-  border-radius: 15%;
   height: 30vh;
+  border-radius: 15%;
   transition: 0.3s;
 }
 
@@ -1175,10 +1176,11 @@ body.nav-active {
 .gallary .gallary_image_box .gallary_image h3 {
   position: absolute;
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #fac031;
   font-family: polo;
   z-index: 5;
+  text-align: center;
   opacity: 0;
   transition: 0.3s;
 }
@@ -1223,62 +1225,11 @@ body.nav-active {
 
 .desserts h2 {
   color: #fff;
+  text-align: center;
+  margin-top: 6vh;
 }
 
-/*-----------------------------------*\
-    #SERVICE
-  \*-----------------------------------*/
 
-.service .section-title {
-  margin-block-end: 16px;
-}
-
-.service .section-text {
-  margin-block-end: 40px;
-}
-
-.service-card {
-  overflow: hidden;
-}
-
-.service-card .has-before {
-  padding-block: 30px;
-  margin-block-end: 26px;
-  z-index: 1;
-}
-
-.service-card .has-before::before {
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 140px;
-  height: 100%;
-  background-image: url("../assets/images/img-pattern.svg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: repeat;
-  transition: var(--transition-2);
-  transition-delay: 0;
-  z-index: -1;
-  will-change: transform;
-}
-
-.service-card:is(:hover, :focus-within) .has-before::before {
-  transform: rotateY(0.5turn) translateX(50%);
-  transition-delay: 300ms;
-}
-
-.service-card .card-banner {
-  transition: var(--transition-2);
-}
-
-.service-card:is(:hover, :focus-within) .card-banner {
-  transform: scale(1.05);
-}
-
-.service .card-title {
-  margin-block-end: 12px;
-}
 
 /*-----------------------------------*\
   #FOOTER
@@ -1555,14 +1506,6 @@ body.nav-active {
     transform: scale(0.7);
   }
 
-  /**
-     * SERVICE
-     */
-
-  .service .container {
-    max-width: 420px;
-    margin-inline: auto;
-  }
 
   /**
      * FOOTER
@@ -1713,23 +1656,6 @@ body.nav-active {
     margin-inline-end: auto;
   }
 
-  /*
-     SERVICE
-     */
-
-  .service .shape {
-    display: block;
-  }
-
-  .service .shape-1 {
-    bottom: 0;
-    left: 0;
-  }
-
-  .service .shape-2 {
-    top: 0;
-    right: 0;
-  }
 
   /*
       FOOTER
@@ -1865,21 +1791,6 @@ body.nav-active {
     transform: scale(1);
   }
 
-  /*
-     * SERVICE
-     */
-
-  .service .grid-list {
-    gap: 150px;
-  }
-
-  .service .grid-list li:nth-child(2n + 1) {
-    transform: translateY(-160px);
-  }
-
-  .service .section-text {
-    margin-block-end: 75px;
-  }
 }
 
 /*
@@ -1947,29 +1858,7 @@ body.nav-active {
     font-size: 15px;
   }
 
-  /*
-  gallary
-  */
 
-  .gallary {
-    display: none;
-  }
-
-  /*
-menu
-*/
-
-  .menu {
-    padding-top: 10px;
-  }
-
-  .menu h2 {
-    font-size: 30px;
-  }
-
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
 
   /*
 footer
@@ -2042,26 +1931,9 @@ hero
     font-size: 2.2rem;
   }
 
-  /*
-menu
-*/
-  .menu {
-    padding-top: 0;
-  }
+  
 
-  .menu h2 {
-    font-size: 30px;
-  }
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
 
-  /*
-gallary
-*/
-  .gallary {
-    display: none;
-  }
 
   /*
 footer
@@ -2121,26 +1993,7 @@ header
     font-size: 2.5rem;
   }
 
-  /*
- menu
- */
-  .menu {
-    padding-top: 0;
-  }
 
-  .menu h2 {
-    font-size: 30px;
-  }
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
-  /*
-  gallary
-  */
-
-  .gallary {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 431px) and (max-width: 770px) {
@@ -2179,19 +2032,51 @@ hero
   gallary
   */
 
-  .gallary {
-    display: none;
+  
+  .gallary .gallary_image_box {
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns for smaller screens */
+    grid-gap: 15px; /* Reduce gap between cards */
   }
 
-  /* menu
-  */
-  .menu h1 {
-    font-size: 40px;
+  .gallary .gallary_image_box .gallary_image {
+    position: relative; /* Ensure positioning for text and buttons */
+    height: 30vh;
   }
 
-  .menu .menu_box .menu_card {
-    height: 300px;
+  .gallary .gallary_image_box .gallary_image img {
+    height: 30vh; /* Adjust image height */
   }
+
+  .gallary .gallary_image_box .gallary_image h3,
+  .gallary .gallary_image_box .gallary_image p,
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    opacity: 1; /* Make text and button always visible */
+    /* Add black background with opacity */
+    font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+  }
+
+  .gallary .gallary_image_box .gallary_image:hover h3,
+  .gallary .gallary_image_box .gallary_image:hover p,
+  .gallary .gallary_image_box .gallary_image:hover .gallary_btn {
+    opacity: 1; /* Ensure text and button remain visible on hover */
+    transform: none; /* Remove transform effect */
+  }
+
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    margin-top: 140px; /* Adjust button position */
+  }
+
+  .gallary .gallary_image_box .gallary_image:hover img {
+    transform: none;
+  }
+
+  .gallary .gallary_image_box .gallary_image img {
+    opacity: 0.4;
+  }
+
+ 
 }
 
 @media screen and (min-width: 771px) and (max-width: 1030px) {
@@ -2223,13 +2108,7 @@ hero
   .hero .cuisiens {
     font-size: 22px;
   }
-  /*
-  menu
-  */
-
-  .menu {
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: 1031px) and (max-width: 1440px) {
@@ -2248,13 +2127,7 @@ hero
   .hero {
     margin-top: 12vh;
   }
-  /*
-menu
-*/
 
-  .menu {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
@@ -2274,11 +2147,58 @@ hero
     margin-top: 6vh;
   }
 
-  /*
-    menu
-    */
-
-  .menu {
-    display: none;
-  }
 }
+
+
+/* Responsive styles for  phones */
+@media (max-width: 430px) {
+
+  .gallary {
+    padding: 0px;
+  }
+  .gallary .gallary_image_box {
+    grid-template-columns: 1fr 1fr; /* Adjust the number of columns for smaller screens */
+    grid-gap: 15px; /* Reduce gap between cards */
+  }
+  
+  .gallary .gallary_image_box .gallary_image {
+    position: relative; /* Ensure positioning for text and buttons */
+    height: 25vh;
+  }
+  
+  .gallary .gallary_image_box .gallary_image img {
+    height: 25vh; /* Adjust image height */
+  }
+  
+  .gallary .gallary_image_box .gallary_image h3,
+  .gallary .gallary_image_box .gallary_image p,
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    opacity: 1; /* Make text and button always visible */
+    /* Add black background with opacity */
+    font-size: 1.5rem;
+        text-align: center;
+        margin: 6px;
+  }
+  
+  .gallary .gallary_image_box .gallary_image:hover h3,
+  .gallary .gallary_image_box .gallary_image:hover p,
+  .gallary .gallary_image_box .gallary_image:hover .gallary_btn {
+    opacity: 1; /* Ensure text and button remain visible on hover */
+    transform: none; /* Remove transform effect */
+  }
+  
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    margin-top: 140px; /* Adjust button position */
+  }
+  
+  .gallary .gallary_image_box .gallary_image:hover img {
+    transform: none;
+  }
+  
+  .gallary .gallary_image_box .gallary_image img {
+    opacity: 0.4;
+  }
+  }
+  
+  
+  
