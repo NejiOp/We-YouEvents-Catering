@@ -1906,6 +1906,15 @@ body.nav-active {
     display: none;
   }
 
+    
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   .header #logo {
     height: 15vh;
     width: 100%;
