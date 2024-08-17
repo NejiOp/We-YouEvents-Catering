@@ -1718,6 +1718,15 @@ hero
     margin-left: 10px;
   }
 
+    
+  .navbar-item:hover .dropdown-content{
+    display: none;
+  }
+
+  .nested-dropdown:hover .nested-dropdown-content {
+    display: none;
+  }
+
   .header .dropdown-content #hover-underline {
     display: none;
   }
