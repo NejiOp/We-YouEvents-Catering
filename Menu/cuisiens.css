@@ -927,9 +927,7 @@ body.nav-active {
     #MAIN-COURSE
   \*-----------------------------------*/
 
-
 /*Gallary*/
-
 .gallary {
   width: 100%;
   padding: 70px 0;
@@ -1036,7 +1034,6 @@ body.nav-active {
   opacity: 1;
   transform: translateY(0);
 }
-
 
 /*-----------------------------------*\
     #HERO
