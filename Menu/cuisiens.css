@@ -1787,7 +1787,7 @@ body.nav-active {
 
   .hero {
     margin-top: 18vh;
-    background-size: 100% 40vh;
+    background-size: 100% 50vh;
     background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: 0vh !important;
@@ -1859,7 +1859,7 @@ hero
 
   .hero {
     margin-top: 18vh;
-    background-size: 100% 40vh;
+    background-size: 100% 50vh;
     background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: 0vh !important;
@@ -1916,7 +1916,7 @@ header
 
   .hero {
     margin-top: 18vh;
-    background-size: 100% 40vh;
+    background-size: 100% 50vh;
     background-repeat: no-repeat;
     overflow: hidden;
     margin-bottom: 0vh !important;
@@ -1924,8 +1924,8 @@ header
   }
 
   .hero .hero-title {
-    margin-top: 5vh;
-    font-size: 3rem;
+    margin-top: 1vh;
+    font-size: 2.5rem;
   }
 
 }
