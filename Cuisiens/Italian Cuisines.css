@@ -1943,29 +1943,6 @@ body.nav-active {
     font-size: 15px;
   }
 
-  /*
-    gallary
-    */
-
-  .gallary {
-    display: none;
-  }
-
-  /*
-  menu
-  */
-
-  .menu {
-    padding-top: 0px;
-  }
-
-  .menu h1 {
-    font-size: 30px;
-  }
-
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
 
   /*
   footer
@@ -2039,27 +2016,6 @@ body.nav-active {
   }
 
   /*
-  menu
-  */
-  .menu {
-    padding-top: 0;
-  }
-
-  .menu h1 {
-    font-size: 30px;
-  }
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
-
-  /*
-  gallary
-  */
-  .gallary {
-    display: none;
-  }
-
-  /*
   footer
   */
 
@@ -2117,26 +2073,7 @@ body.nav-active {
     font-size: 2.5rem;
   }
 
-  /*
-   menu
-   */
-  .menu {
-    padding-top: 0;
-  }
 
-  .menu h1 {
-    font-size: 30px;
-  }
-  .menu .menu_box .menu_card {
-    height: 300px;
-  }
-  /*
-    gallary
-    */
-
-  .gallary {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 431px) and (max-width: 770px) {
@@ -2172,22 +2109,54 @@ body.nav-active {
     margin-top: 16vh;
   }
 
-  /*
-    gallary
-    */
 
-  .gallary {
-    display: none;
+  
+  /**
+  gallary
+  */
+
+ 
+  .gallary .gallary_image_box {
+    grid-template-columns: 1fr 1fr 1fr; /* Adjust the number of columns for smaller screens */
+    grid-gap: 15px; /* Reduce gap between cards */
   }
 
-  /* menu
-    */
-  .menu h1 {
-    font-size: 40px;
+  .gallary .gallary_image_box .gallary_image {
+    position: relative; /* Ensure positioning for text and buttons */
+    height: 30vh;
   }
 
-  .menu .menu_box .menu_card {
-    height: 300px;
+  .gallary .gallary_image_box .gallary_image img {
+    height: 30vh; /* Adjust image height */
+  }
+
+  .gallary .gallary_image_box .gallary_image h3,
+  .gallary .gallary_image_box .gallary_image p,
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    opacity: 1; /* Make text and button always visible */
+    /* Add black background with opacity */
+    font-size: 1.5rem;
+        text-align: center;
+        width: 100%;
+  }
+
+  .gallary .gallary_image_box .gallary_image:hover h3,
+  .gallary .gallary_image_box .gallary_image:hover p,
+  .gallary .gallary_image_box .gallary_image:hover .gallary_btn {
+    opacity: 1; /* Ensure text and button remain visible on hover */
+    transform: none; /* Remove transform effect */
+  }
+
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    margin-top: 140px; /* Adjust button position */
+  }
+
+  .gallary .gallary_image_box .gallary_image:hover img {
+    transform: none;
+  }
+
+  .gallary .gallary_image_box .gallary_image img {
+    opacity: 0.4;
   }
 }
 
@@ -2220,13 +2189,7 @@ body.nav-active {
   .hero .cuisiens {
     font-size: 22px;
   }
-  /*
-    menu
-    */
 
-  .menu {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1031px) and (max-width: 1440px) {
@@ -2245,13 +2208,7 @@ body.nav-active {
   .hero {
     margin-top: 12vh;
   }
-  /*
-  menu
-  */
 
-  .menu {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
@@ -2270,12 +2227,59 @@ body.nav-active {
   .hero {
     margin-top: 6vh;
   }
-
-  /*
-      menu
-      */
-
-  .menu {
-    display: none;
-  }
 }
+
+
+
+/* Responsive styles for  phones */
+@media (max-width: 430px) {
+
+  .gallary {
+    padding: 0px;
+  }
+  .gallary .gallary_image_box {
+    grid-template-columns: 1fr 1fr; /* Adjust the number of columns for smaller screens */
+    grid-gap: 15px; /* Reduce gap between cards */
+  }
+  
+  .gallary .gallary_image_box .gallary_image {
+    position: relative; /* Ensure positioning for text and buttons */
+    height: 25vh;
+  }
+  
+  .gallary .gallary_image_box .gallary_image img {
+    height: 25vh; /* Adjust image height */
+  }
+  
+  .gallary .gallary_image_box .gallary_image h3,
+  .gallary .gallary_image_box .gallary_image p,
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    opacity: 1; /* Make text and button always visible */
+    /* Add black background with opacity */
+    font-size: 1.5rem;
+        text-align: center;
+        margin: 6px;
+  }
+  
+  .gallary .gallary_image_box .gallary_image:hover h3,
+  .gallary .gallary_image_box .gallary_image:hover p,
+  .gallary .gallary_image_box .gallary_image:hover .gallary_btn {
+    opacity: 1; /* Ensure text and button remain visible on hover */
+    transform: none; /* Remove transform effect */
+  }
+  
+  .gallary .gallary_image_box .gallary_image .gallary_btn {
+    margin-top: 140px; /* Adjust button position */
+  }
+  
+  .gallary .gallary_image_box .gallary_image:hover img {
+    transform: none;
+  }
+  
+  .gallary .gallary_image_box .gallary_image img {
+    opacity: 0.4;
+  }
+  }
+  
+  
+  
