@@ -987,6 +987,7 @@ body.nav-active {
 }
 
 .gallary .gallary_image_box .gallary_image h3 {
+  text-align: center;
   position: absolute;
   font-size: 25px;
   margin-bottom: 30px;
