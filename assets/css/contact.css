@@ -878,7 +878,7 @@ body.nav-active {
 /* Style the dropdown links */
 .dropdown-content a {
   color: #fff;
-  padding: 8px 32px;
+  padding: 6px 8px 6px 20px;
   text-decoration: none;
   display: block;
 }
@@ -900,8 +900,8 @@ body.nav-active {
     display: none;
     position: absolute;
     width: 100%;
-    top: 80%;
-    left: 50%;
+    top: 5%;
+    left: 60%;
     
     background-color: var(--davys-grey);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
