@@ -1079,9 +1079,12 @@ body.nav-active {
   transform: translateY(0);
 }
 
+.desserts{
+  
+  text-align: center;
+}
 .desserts h2 {
   color: #fff;
-  text-align: center;
   margin-top: 6vh;
 }
 
