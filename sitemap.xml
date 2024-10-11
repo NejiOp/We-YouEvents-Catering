@@ -5,110 +5,159 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-
 <url>
-  <loc>https://www.weandyoucatering.com/</loc>
-  <lastmod>2023-12-26T11:57:30+00:00</lastmod>
+  <loc>https://weandyoucatering.com/</loc>
+  <lastmod>2024-10-10T09:56:40+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/index.html</loc>
-  <lastmod>2023-12-26T11:57:30+00:00</lastmod>
+  <loc>https://weandyoucatering.com/index.html</loc>
+  <lastmod>2024-10-10T09:56:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/menus.html</loc>
-  <lastmod>2023-12-26T11:58:36+00:00</lastmod>
+  <loc>https://weandyoucatering.com/menus.html</loc>
+  <lastmod>2024-10-10T07:43:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Menu/starter.html</loc>
-  <lastmod>2023-12-26T12:00:56+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Menu/starter.html</loc>
+  <lastmod>2024-10-10T11:00:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Menu/cuisiens.html</loc>
-  <lastmod>2023-12-26T12:03:44+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Menu/cuisiens.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Menu/Indian%20Cusiens.html</loc>
-  <lastmod>2023-12-26T12:02:06+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Menu/Indian%20Cusiens.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/Japanese.html</loc>
-  <lastmod>2023-12-27T05:27:00+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/Japanese.html</loc>
+  <lastmod>2024-10-10T07:46:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/chinese.html</loc>
-  <lastmod>2023-12-27T05:26:33+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/chinese.html</loc>
+  <lastmod>2024-10-10T07:46:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/Italian%20Cuisines.html</loc>
-  <lastmod>2023-12-27T05:26:54+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/Italian%20Cuisines.html</loc>
+  <lastmod>2024-10-10T07:46:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/Labanese.html</loc>
-  <lastmod>2023-12-27T05:27:04+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/Labanese.html</loc>
+  <lastmod>2024-10-10T07:46:18+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/mexican.html</loc>
-  <lastmod>2023-12-27T05:27:09+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/mexican.html</loc>
+  <lastmod>2024-10-10T07:46:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/spanish.html</loc>
-  <lastmod>2023-12-27T05:27:13+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/spanish.html</loc>
+  <lastmod>2024-10-10T07:46:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/Thai.html</loc>
-  <lastmod>2023-12-27T05:27:16+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/Thai.html</loc>
+  <lastmod>2024-10-10T07:45:56+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/turkey.html</loc>
-  <lastmod>2023-12-27T05:27:20+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/turkey.html</loc>
+  <lastmod>2024-10-10T07:45:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/french%20cuisines.html</loc>
-  <lastmod>2023-12-27T05:26:38+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/french%20cuisines.html</loc>
+  <lastmod>2024-10-10T10:54:40+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/greek.html</loc>
-  <lastmod>2023-12-27T05:26:43+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/greek.html</loc>
+  <lastmod>2024-10-10T07:46:38+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Cuisiens/american.html</loc>
-  <lastmod>2023-12-27T05:26:26+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/american.html</loc>
+  <lastmod>2024-10-10T07:47:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/Menu/drinks%20and%20deserts.html</loc>
-  <lastmod>2023-12-26T12:02:50+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Menu/drinks%20and%20deserts.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/coming%20soon.html</loc>
-  <lastmod>2023-12-27T05:21:50+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Menu/hard%20drinks.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/aboutus.html</loc>
-  <lastmod>2023-12-26T12:00:18+00:00</lastmod>
+  <loc>https://weandyoucatering.com/Cuisiens/exclusive%20dishes.html</loc>
+  <lastmod>2024-10-10T07:42:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.weandyoucatering.com/contactus.html</loc>
-  <lastmod>2023-12-27T05:47:27+00:00</lastmod>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/live.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/thali.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/East%20Indian%20Thali.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/West%20Indian%20Thali.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/North%20Indian%20Thali.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/South%20Indian%20Thali.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/exclusive%20dishes/desserts.html</loc>
+  <lastmod>2024-10-10T11:00:39+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/aboutus.html</loc>
+  <lastmod>2024-10-10T07:44:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/gallery.html</loc>
+  <lastmod>2024-10-10T07:43:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/contactus.html</loc>
+  <lastmod>2024-10-10T07:43:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://weandyoucatering.com/disclaimer.html</loc>
+  <lastmod>2024-10-10T07:43:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
