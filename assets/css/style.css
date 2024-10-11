@@ -1135,7 +1135,7 @@ Our Client
 width: 20%;
 height: 100px;
 margin-top: 5vh;
-} /* Should be removed. Only for demonstration */
+} 
 
 .row{
   margin-left: 20%;
@@ -1627,7 +1627,7 @@ textarea.input-field {
 
 .update{
   color: var(--quick-silver);
-  margin-left: 120%;
+  margin-left: 90%;
 }
 
 /*-----------------------------------*\
