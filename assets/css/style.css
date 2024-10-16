@@ -974,6 +974,7 @@ body.nav-active {
   height: 100%;
   transform: scale(1.15);
   pointer-events: none;
+  -webkit-user-select: none; /* Safari */
   user-select: none;
   z-index: -1;
 }
