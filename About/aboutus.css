@@ -969,6 +969,7 @@ body.nav-active {
   height: 100%;
   transform: scale(1.15);
   pointer-events: none;
+  -webkit-user-select: none; /* Safari */
   user-select: none;
   z-index: -1;
 }
@@ -1342,7 +1343,7 @@ body.nav-active {
 
 .update{
   color: var(--quick-silver);
-  margin-left: 120%;
+  margin-left: 90%;
 }
 
 /*-----------------------------------*\
